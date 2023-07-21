@@ -16,20 +16,17 @@ def upload_images_to_bucket(username):
             s3_client.upload_file(local_path, "vsco-scrapper", s3_key)
 
 def main():
-    # Replace 'your_username' with the actual VSCO username you want to use for testing
     vsco_username = 'maha-kanakala'
 
     # Check if the temp_data directory exists
     if not os.path.exists('./temp_data'):
         print("temp_data directory does not exist. Please create the required folders.")
         return
-
     # Check if the app has write permissions for the temp_data directory
     if not os.access('./temp_data', os.W_OK):
         print("Permission denied: Cannot write to temp_data directory.")
         return
 
-    # Upload the images to S3 bucket
     upload_images_to_bucket(vsco_username)
 
 if __name__ == "__main__":
