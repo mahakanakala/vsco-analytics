@@ -1,6 +1,6 @@
 # My VSCO Analyzer
 
-This project is a VSCO Analyzer that uses the [vsco-scraper](https://github.com/mvabdi/vsco-scraper) tool developed by [Author's Name](https://github.com/mvabdi).
+VSCO Analyzer built on Streamlit that uses the [vsco-scraper](https://github.com/mvabdi/vsco-scraper) tool developed by [mvabdi](https://github.com/mvabdi).
 
 ## Credits
 

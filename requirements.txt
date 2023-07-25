@@ -1,0 +1,12 @@
+streamlit
+boto3
+transformers
+os
+requests
+json
+PIL
+dotenv
+subprocess
+torch
+datetime
+BeautifulSoup
